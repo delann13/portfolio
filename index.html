@@ -1,540 +1,475 @@
 <!doctype html>
 <html lang="en">
-<head>
-<!-- Required meta tags -->
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-<!-- Bootstrap CSS -->
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
-<link href="https://cdn.lineicons.com/2.0/LineIcons.css" rel="stylesheet">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.css">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css">
-<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-<title>Free portfolio template provided by bootstraplily</title>
-<style>
-body {
-	font-family: 'Montserrat', sans-serif;
-}
-a {
-	transition: all 0.3s ease;
-}
-.weight-500 {
-	font-weight: 500;
-}
-.weight-600 {
-	font-weight: 600;
-}
-h1, h2, h3, h4, h5, h6 {
-	color: #162746;
-}
-p {
-	font-size: 14px;
-	line-height: 24px;
-}
-.navbar-nav {
-	font-weight: 600;
-}
-.btn {
-	padding: 13.5px 36px;
-	font-weight: 700;
-	border-radius: 30px;
-	font-size: 13px;
-	letter-spacing: 1px;
-	text-transform: uppercase;
-}
-.btn-primary {
-	background-color: #6264fa;
-}
-.btn-primary:hover {
-	background-color: #3b3dd1;
-}
-.btn-outline-primary {
-	color: #625cfe;
-	border-color: #625cfe;
-}
-.btn-outline-primary:hover {
-	background-color: #625cfe;
-}
-.btn-link {
-	color: #625cfe;
-	transition: all 0.3s ease;
-	font-weight: bold;
-	font-size: 13px;
-	letter-spacing: 1px;
-	text-transform: uppercase;
-}
-.btn-link:hover {
-	color: #625cfe;
-	opacity: 0.5;
-	text-decoration: none;
-}
-::placeholder {
-font-size:13px;
-font-weight:600;
-}
-.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
-	color: #625cfe;
-}
-.navbar-expand-lg .navbar-nav .nav-link {
-	padding-right: 1rem !important;
-	padding-left: 1rem;
-}
-.active a {
-	font-weight: bold;
-}
-.display-5 {
-	font-size: 2.5rem;
-	font-weight: 300;
-	line-height: 1.2;
-}
-.bg-circle {
-	background: url(img/bg-circle.png) no-repeat left top;
-	height: 50px;
-	display: flex;
-	align-items: center;
-	padding-left: 21px;
-}
-.tt {
-	color: #2dcbbd;
-}
-.circle-new {
-	position: absolute;
-	top: -10px;
-	left: -10px;
-	background-color: #2dcbbd;
-	width: 60px;
-	height: 60px;
-	border-radius: 60px;
-	display: flex;
-}
-a.text-blue {
-	color: #625cfe;
-}
-.bubble {
-	background: url(img/bubble.png) no-repeat right bottom;
-}
-@media(max-width:700px) {
-p {
-	font-size: 13px;
-}
-}
-#parallax {
-	position: relative;
-	width: 100%;
-	height: 800px;
-	background-image: url(img/back-1.png), url(img/back-2.png), url(img/back-3.png);
-	background-repeat: no-repeat;
-	background-position: center;
-	background-position: 50% 50%;
-}
-.bg-new-3 {
-	background: linear-gradient(rgba(255,255,255,.95), rgba(255,255,255,.95)), url(img/back-4.jpg);
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-position: center;
-}
-.tt {
-	overflow: hidden;
-}
-.tt img {
-	width: 170px;
-	height: 170px;
-	border-radius: 170px;
-}
-.scrollDown {
-	position: absolute;
-	bottom: 80px;
-	left: 50%;
-	transform: translate(-50%, -50%) rotate(-180deg);
-}
-.scrollDown i {
-	position: absolute;
-	bottom: 10px;
-	color: #ccc;
-	font-weight: 500;
-	font-size: 18px;
-	animation: scrollDown 2s ease infinite;
-}
-@keyframes scrollDown {
- 0%, 100% {
- bottom: 0;
-}
- 50% {
- bottom: 10px;
-}
-}
-.yy {
-	margin-bottom: 40px;
-}
-.yy img {
-	filter: grayscale(90%);
-	opacity: 0.3;
-	cursor: pointer;
-	transition: all 0.3s ease;
-	height: 30px;
-	width: auto;
-}
-.yy img:hover {
-	filter: grayscale(10%);
-	opacity: 0.9;
-}
-.bg-2 {
-    background: url(img/banner-image-seventeen.jpg);
-    background-size: cover;
-    background-position: center;
-}
-.bg-new {
-	transition: all 0.3s ease;
-	cursor: pointer;
-	background-color: #a3edd8;
-}
-.bg-new:hover {
-	transform: scale(1.04);
-}
-.bg-new-2 {
-	transition: all 0.3s ease;
-	cursor: pointer;
-	background-color: #f4df64;
-}
-.bg-new-2:hover {
-	transform: scale(1.04);
-}
-.nn img {
-	transition: all 0.3s ease;
-	cursor: pointer;
-}
-.nn img:hover {
-	transform: scale(1.04);
-}
-.uu li {
-	padding-top: 12px;
-	font-weight: 600;
-	color: #162746;
-	font-size: 15px;
-}
-h4.bg-heading {
-	background-color: #8bd3bf;
-	padding: 10px 20px;
-	font-size: 16px;
-	font-weight: 600;
-	display: inline-block;
-	border-radius: 20px;
-}
-h4.bg-heading2 {
-	background-color: #ffe131;
-	padding: 10px 20px;
-	font-size: 16px;
-	font-weight: 600;
-	display: inline-block;
-	border-radius: 20px;
-}
-.icon-circle-80 {
-	transition: all 0.3s ease;
-	width: 50px;
-	margin: 08px;
-	height: 50px;
-	border-radius: 50px;
-	font-size: 15px;
-	border: 2px solid #ebebeb;
-	cursor: pointer;
-	background-color: #f5f5f5;
-}
-.icon-circle-80:hover {
-	box-shadow: 0px 0px 5px 8px rgba(0,0,0,0.08);
-}
-.icon-circle-80 i {
-	font-size: 15px;
-}
-.icon-circle-80 a {
-	color: #666;
-}
-.icon-circle-80:hover {
-	background-color: #e34c43;
-	color: #fff;
-}
-.icon-circle-80:hover a {
-	color: #fff;
-}
-</style>
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+  <link href="https://cdn.lineicons.com/2.0/LineIcons.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap"
+    rel="stylesheet">
+  <title>Delicia Annie James - Portfolio</title>
+  <style>
+    body {
+      font-family: 'Montserrat', sans-serif;
+    }
+
+    a {
+      transition: all 0.3s ease;
+    }
+
+    .weight-500 {
+      font-weight: 500;
+    }
+
+    .weight-600 {
+      font-weight: 600;
+    }
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+      color: #162746;
+    }
+
+    p {
+      font-size: 14px;
+      line-height: 24px;
+    }
+
+    .navbar-nav {
+      font-weight: 600;
+    }
+
+    .btn {
+      padding: 13.5px 36px;
+      font-weight: 700;
+      border-radius: 30px;
+      font-size: 13px;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+    }
+
+    .btn-primary {
+      background-color: #6264fa;
+    }
+
+    .btn-primary:hover {
+      background-color: #3b3dd1;
+    }
+
+    .btn-outline-primary {
+      color: #625cfe;
+      border-color: #625cfe;
+    }
+
+    .btn-outline-primary:hover {
+      background-color: #625cfe;
+    }
+
+    .btn-link {
+      color: #625cfe;
+      transition: all 0.3s ease;
+      font-weight: bold;
+      font-size: 13px;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+    }
+
+    .btn-link:hover {
+      color: #625cfe;
+      opacity: 0.5;
+      text-decoration: none;
+    }
+
+    ::placeholder {
+      font-size: 13px;
+      font-weight: 600;
+    }
+
+    .navbar-light .navbar-nav .active>.nav-link,
+    .navbar-light .navbar-nav .nav-link.active,
+    .navbar-light .navbar-nav .nav-link.show,
+    .navbar-light .navbar-nav .show>.nav-link {
+      color: #625cfe;
+    }
+
+    .navbar-expand-lg .navbar-nav .nav-link {
+      padding-right: 1rem !important;
+      padding-left: 1rem;
+    }
+
+    .active a {
+      font-weight: bold;
+    }
+
+    .display-5 {
+      font-size: 2.5rem;
+      font-weight: 300;
+      line-height: 1.2;
+    }
+
+    .bg-circle {
+      background: url(img/bg-circle.png) no-repeat left top;
+      height: 50px;
+      display: flex;
+      align-items: center;
+      padding-left: 21px;
+    }
+
+    .tt {
+      color: #2dcbbd;
+    }
+
+    .circle-new {
+      position: absolute;
+      top: -10px;
+      left: -10px;
+      background-color: #2dcbbd;
+      width: 60px;
+      height: 60px;
+      border-radius: 60px;
+      display: flex;
+    }
+
+    a.text-blue {
+      color: #625cfe;
+    }
+
+    .bubble {
+      background: url(img/bubble.png) no-repeat right bottom;
+    }
+
+    @media(max-width:700px) {
+      p {
+        font-size: 13px;
+      }
+    }
+
+    #parallax {
+      position: relative;
+      width: 100%;
+      height: 82vh;
+      background-image: url(img/lens.jpg);
+      background-repeat: no-repeat;
+      background-position: center;
+      background-position: 50% 50%;
+    }
+
+    .bg-new-3 {
+      background: linear-gradient(rgba(255, 255, 255, .95), rgba(255, 255, 255, .95)), url(img/back-4.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+    }
+
+    .tt {
+      overflow: hidden;
+    }
+
+    .tt img {
+      width: 170px;
+      height: 170px;
+      border-radius: 170px;
+    }
+
+    .scrollDown {
+      position: absolute;
+      bottom: 80px;
+      left: 50%;
+      transform: translate(-50%, -50%) rotate(-180deg);
+    }
+
+    .scrollDown i {
+      position: absolute;
+      bottom: 10px;
+      color: #ccc;
+      font-weight: 500;
+      font-size: 18px;
+      animation: scrollDown 2s ease infinite;
+    }
+
+    @keyframes scrollDown {
+
+      0%,
+      100% {
+        bottom: 0;
+      }
+
+      50% {
+        bottom: 10px;
+      }
+    }
+
+    .yy {
+      margin-bottom: 40px;
+    }
+
+    .yy img {
+      filter: grayscale(90%);
+      opacity: 0.3;
+      cursor: pointer;
+      transition: all 0.3s ease;
+      height: 30px;
+      width: auto;
+    }
+
+    .yy img:hover {
+      filter: grayscale(10%);
+      opacity: 0.9;
+    }
+
+    .bg-2 {
+      background: url(img/banner-image-seventeen.jpg);
+      background-size: cover;
+      background-position: center;
+    }
+
+    .bg-new {
+      transition: all 0.3s ease;
+      cursor: pointer;
+      background-color: #a3edd8;
+    }
+
+    .bg-new:hover {
+      transform: scale(1.04);
+    }
+
+    .bg-new-2 {
+      transition: all 0.3s ease;
+      cursor: pointer;
+      background-color: #f4df64;
+    }
+
+    .bg-new-2:hover {
+      transform: scale(1.04);
+    }
+
+    .nn img {
+      transition: all 0.3s ease;
+      cursor: pointer;
+    }
+
+    .nn img:hover {
+      transform: scale(1.04);
+    }
+
+    .uu li {
+      padding-top: 12px;
+      font-weight: 600;
+      color: #162746;
+      font-size: 15px;
+    }
+
+    h4.bg-heading {
+      background-color: #8bd3bf;
+      padding: 10px 20px;
+      font-size: 16px;
+      font-weight: 600;
+      display: inline-block;
+      border-radius: 20px;
+    }
+
+    h4.bg-heading2 {
+      background-color: #ffe131;
+      padding: 10px 20px;
+      font-size: 16px;
+      font-weight: 600;
+      display: inline-block;
+      border-radius: 20px;
+    }
+
+    .icon-circle-80 {
+      transition: all 0.3s ease;
+      width: 50px;
+      margin: 08px;
+      height: 50px;
+      border-radius: 50px;
+      font-size: 15px;
+      border: 2px solid #ebebeb;
+      cursor: pointer;
+      background-color: #f5f5f5;
+    }
+
+    .icon-circle-80:hover {
+      box-shadow: 0px 0px 5px 8px rgba(0, 0, 0, 0.08);
+    }
+
+    .icon-circle-80 i {
+      font-size: 15px;
+    }
+
+    .icon-circle-80 a {
+      color: #666;
+    }
+
+    .icon-circle-80:hover {
+      background-color: #e34c43;
+      color: #fff;
+    }
+
+    .icon-circle-80:hover a {
+      color: #fff;
+    }
+  </style>
 </head>
 
 <body>
-<nav class="navbar navbar-expand-lg navbar-light"> <a class="navbar-brand weight-600" href="#">BootstrapLily</a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
-  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-    <ul class="navbar-nav ml-auto mr-md-5">
-      <li class="nav-item active"> <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a> </li>
-      <li class="nav-item"> <a class="nav-link" href="#">About</a> </li>
-      <li class="nav-item"> <a class="nav-link" href="#">Services</a> </li>
-      <li class="nav-item"> <a class="nav-link" href="#">Portfolio</a> </li>
-      <li class="nav-item"> <a class="nav-link" href="#">Contact</a> </li>
-    </ul>
-    <a href="" class="btn btn-light text-blue">Hire Me</a> </div>
-</nav>
-<div id="parallax">
-  <div class="container">
-    <div class="row" style="height:800px;">
-      <div class="col-12 d-flex align-items-center">
-        <div class="text-center w-100">
-          <div class="tt mb-4"> <img src="img/main-profile.jpg"> </div>
-          <h1 class="display-5 weight-600">Hi, I'm Kevin Rich.</h1>
-          <h6 class="mb-4">UI/UX Designer</h6>
-          <p class="text-muted lead col-md-12 col-lg-8 mx-auto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati sint ea voluptas, commodi inventore fugiat.</p>
-          <a href="#" class="btn btn-primary mt-5">Hire Me &rarr;</a> </div>
-      </div>
-    </div>
-  </div>
-  <a href="#" class="scrollDown"> <i class="lni lni-mouse"></i> </a> </div>
-<div class="container pt-5">
-  <div class="row">
-    <div class="col-12 text-center">
-      <h6 class="text-info small weight-600">Some of my awesome clients</h6>
-    </div>
-  </div>
-  <div class="row text-center mt-5">
-    <div class="col-lg-3 col-md-4 col-6 mb-5 yy"> <img src="img/amara.png"> </div>
-    <div class="col-lg-3 col-md-4 col-6 mb-5 yy"> <img src="img/asgardia.png"> </div>
-    <div class="col-lg-3 col-md-4 col-6 mb-5 yy"> <img src="img/aven.png"> </div>
-    <div class="col-lg-3 col-md-4 col-6 mb-5 yy"> <img src="img/circle.png"> </div>
-  </div>
-  <div class="row text-center">
-    <div class="col-lg-3 col-md-4 col-6 mb-5 yy"> <img src="img/code-lab.png"> </div>
-    <div class="col-lg-3 col-md-4 col-6 mb-5 yy"> <img src="img/earth-2.0.png"> </div>
-    <div class="col-lg-3 col-md-4 col-6 mb-5 yy"> <img src="img/fox-hub.png"> </div>
-    <div class="col-lg-3 col-md-4 col-6 mb-5 yy"> <img src="img/goldline.png"> </div>
-  </div>
-</div>
-</div>
-<div class="container py-5">
-  <div class="row align-items-center py-5">
-    <div class="col-md-12 col-lg-4">
-      <h2 class="mb-4 weight-600">My Services</h2>
-      <p class="text-muted mb-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam id elit iaculis, pulvinar quam quis, porta mauris. </p>
-      <a href="" class="btn btn-outline-secondary mb-5 mb-md-0">My Services &rarr;</a> </div>
-    <div class="col-md-12 col-lg-8">
-      <div class="row">
-        <div class="col-6">
-          <div class="bg-new  p-5 text-white">
-            <h4 class="bg-heading">#Design</h4>
-            <ul class="list-unstyled uu">
-              <li>user experience</li>
-              <li>interface design</li>
-              <li>product design</li>
-              <li>mobile design</li>
-              <li>illustration &amp;&amp; iconography</li>
-              <li>frontend development</li>
-            </ul>
-          </div>
-        </div>
-        <div class="col-6">
-          <div class="bg-new-2  p-5 text-white">
-            <h4 class="bg-heading2">#Code</h4>
-            <ul class="list-unstyled uu">
-              <li>dapps</li>
-              <li>web. mobile</li>
-              <li>bridges</li>
-              <li>smart contracts</li>
-              <li>custom blockchains</li>
-              <li>formal verifications</li>
-            </ul>
+  <nav class="navbar navbar-expand-lg navbar-light"> <a class="navbar-brand weight-600" href="#"></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"> <span
+        class="navbar-toggler-icon"></span> </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ml-auto mr-md-5">
+        <li class="nav-item active"> <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a> </li>
+        <li class="nav-item"> <a class="nav-link" href="/portfolio.html">Portfolio</a> </li>
+        <li class="nav-item"> <a class="nav-link" href="/contact.html">Contact</a> </li>
+      </ul>
+    </div>>
+  </nav>
+  <div id="parallax">
+    <div class="container">
+      <div class="row" style="height:500px;">
+        <div class="col-12 d-flex align-items-center">
+          <div class="text-center w-100">
+            <div class="tt mb-4"> <img src="img/main-profile.jpg"> </div>
+            <h1 class="display-5 weight-600">Hi, I'm Delicia James</h1>
+            <h6 class="mb-4">Qualitative market researcher</h6>
+            <p class="text-muted lead col-md-12 col-lg-11 mx-auto">I find meaning among chaos.. This translates into my life and work. As a market researcher, I have travelled across India, South East Asia, USA, and UK, executing projects on FMCG products, telecom, UX, alcohol, and more; looking to answer several client business questions. All questions, however, boil down to one main goal: understanding the target consumer. My varied experiences have given me the privilege of experiential multicultural literacy, and a unique perspective. </p>
+            <a href="/portfolio.html" class="btn btn-primary ">Portfolio &rarr;</a>
           </div>
         </div>
       </div>
     </div>
   </div>
-</div>
-<div class="bg-new-3 py-5">
+  <div class="container pt-5">
+    <div class="row">
+      <div class="col-12 text-center">
+        <h6 class="text-info small weight-600">Some of the prominent clients I have worked with</h6>
+      </div>
+    </div>
+    <div class="row text-center mt-5">
+      <div class="col-lg-3 col-md-4 col-6 mb-5 yy"> <img src="img/twitter.png" alt="Unilever logo"> </div>
+      <div class="col-lg-3 col-md-4 col-6 mb-5 yy"> <img src="img/unilever.png" style="height: 40px;"> </div>
+      <div class="col-lg-3 col-md-4 col-6 mb-5 yy"> <img src="img/guinness.png" style="height: 40px;"> </div>
+      <div class="col-lg-3 col-md-4 col-6 mb-5 yy"> <img src="img/friesland.png" style="height: 43*px;"> </div>
+    </div>
+    <div class="row text-center">
+      <div class="col-lg-3 col-md-4 col-6 mb-5 yy"> <img src="img/redmart.png"> </div>
+      <div class="col-lg-3 col-md-4 col-6 mb-5 yy"> <img src="img/subway.png" style="height: 38px;"> </div>
+      <div class="col-lg-3 col-md-4 col-6 mb-5 yy"> <img src="img/shiseido.png"> </div>
+      <div class="col-lg-3 col-md-4 col-6 mb-5 yy"> <img src="img/dsm.png" style="height: 40px;"> </div>
+    </div>
+  </div>
   <div class="container py-5">
-    <div class="row">
-      <div class="col-12 text-center mb-5">
-        <h2>My Best Work</h2>
-      </div>
-    </div>
-    <div class="row align-items-center pb-5">
-      <div class="col-md-6 px-5">
-        <h4 class="mb-4">Portfolio Heading Goes Here</h4>
-        <p class="text-muted mb-5"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec imperdiet ligula vitae suscipit dapibus. Nam mollis, leo non finibus rutrum, urna turpis blandit eros, vel semper quam urna et ero.</p>
-        <div class="bg-circle"><a href="" class="btn-link">View More &rarr;</a> </div>
-      </div>
-      <div class="col-md-6 mt-5 mt-md-0 nn"> <img src="img/portfolio-one.jpg" class="img-fluid rounded"> </div>
-    </div>
-    <div class="row align-items-center">
-      <div class="col-md-6 order-12 order-lg-1 nn"> <img src="img/portfolio-two.jpg" class="img-fluid rounded"> </div>
-      <div class="col-md-6 px-5 order-1 order-lg-12">
-        <h4 class="mb-4">Portfolio Heading Goes Here</h4>
-        <p class="text-muted mb-5"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec imperdiet ligula vitae suscipit dapibus. Nam mollis, leo non finibus rutrum, urna turpis blandit eros, vel semper quam urna et ero.</p>
-        <div class="bg-circle mb-5 mb-md-0"><a href="" class="btn-link">View More &rarr;</a> </div>
-      </div>
-    </div>
-  </div>
-</div>
-<div class="container pt-5">
-  <div class="row pt-5">
-    <div class="col-12 text-center">
-      <h2 class="mb-4">Achievements</h2>
-      <p class="col-md-8 mx-auto text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec imperdiet ligula vitae suscipit dapibus. Nam mollis, leo non finibus rutrum, urna turpis blandit eros, vel semper quam urna et eros.</p>
-    </div>
-  </div>
-  <div class="row justify-content-around align-items-center pt-5">
-    <div class="text-center">
-      <h2 class="tt">500+</h2>
-      <p class="text-muted small">Project Completed</p>
-    </div>
-    <div> <img src="img/separtor.jpg"> </div>
-    <div class="text-center">
-      <h2 class="tt">24/7</h2>
-      <p class="text-muted small">Support</p>
-    </div>
-    <div> <img src="img/separtor.jpg"> </div>
-    <div class="text-center">
-      <h2 class="tt">8+</h2>
-      <p class="text-muted small">Years of Experience</p>
-    </div>
-    <div> <img src="img/separtor.jpg"> </div>
-    <div class="text-center">
-      <h2 class="tt">20+</h2>
-      <p class="text-muted small">Countries Served</p>
-    </div>
-  </div>
-</div>
-<div class="container py-5">
-  <div class="row pt-5">
-    <div class="col-12 text-center">
-      <h2>What My Customers Are Saying</h2>
-    </div>
-  </div>
-</div>
-<div class="bg-2">
-  <div class="container testimonials owl-carousel owl-theme">
     <div class="row align-items-center py-5">
-      <div class="col-md-6 px-5">
-        <h5 class="mb-4 weight-600">Help us to improve our productivity</h5>
-        <p class="text-muted mb-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec imperdiet ligula vitae suscipit dapibus. Nam mollis, leo non finibus rutrum, urna turpis blandit eros, vel semper quam urna et eros. </p>
-        <h6>Alexa Nickson</h6>
-        <p class="text-muted small">Social Media Manager</p>
-      </div>
-      <div class="col-md-6">
-        <div class="circle-new justify-content-center align-items-center">
-          <div><img src="img/inverted-comma.png"></div>
-        </div>
-        <img src="img/img-profile-1.jpg" class="img-fluid"> </div>
-    </div>
-    <div class="row align-items-center py-5">
-      <div class="col-md-6 px-5">
-        <h5 class="mb-4 weight-600">Help us to improve our productivity</h5>
-        <p class="text-muted mb-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec imperdiet ligula vitae suscipit dapibus. Nam mollis, leo non finibus rutrum, urna turpis blandit eros, vel semper quam urna et eros. </p>
-        <h6>Jery George</h6>
-        <p class="text-muted small">Digital Marketer</p>
-      </div>
-      <div class="col-md-6">
-        <div class="circle-new justify-content-center align-items-center">
-          <div><img src="img/inverted-comma.png"></div>
-        </div>
-        <img src="img/img-profile-3.jpg" class="img-fluid"> </div>
-    </div>
-    <div class="row align-items-center py-5">
-      <div class="col-md-6 px-5">
-        <h5 class="mb-4 weight-600">Help us to improve our productivity</h5>
-        <p class="text-muted mb-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec imperdiet ligula vitae suscipit dapibus. Nam mollis, leo non finibus rutrum, urna turpis blandit eros, vel semper quam urna et eros. </p>
-        <h6>Nicole Rich</h6>
-        <p class="text-muted small">Web Designer</p>
-      </div>
-      <div class="col-md-6">
-        <div class="circle-new justify-content-center align-items-center">
-          <div><img src="img/inverted-comma.png"></div>
-        </div>
-        <img src="img/img-profile-4.jpg" class="img-fluid"> </div>
-    </div>
-  </div>
-</div>
-<div class="container py-5">
-  <div class="row pt-5">
-    <div class="col-12 text-center d-flex justify-content-center">
-      <div class="icon-circle-80 d-flex justify-content-center align-items-center"> <a href=""><i class="lni lni-facebook-filled"></i></a> </div>
-      <div class="icon-circle-80 d-flex justify-content-center align-items-center"> <a href=""><i class="lni lni-youtube"></i></a> </div>
-      <div class="icon-circle-80 d-flex justify-content-center align-items-center"> <a href=""><i class="lni lni-twitter-filled"></i></a> </div>
-      <div class="icon-circle-80 d-flex justify-content-center align-items-center"> <a href=""><i class="lni lni-instagram-filled"></i></a> </div>
-      <div class="icon-circle-80 d-flex justify-content-center align-items-center"> <a href=""><i class="lni lni-pinterest"></i></a> </div>
-    </div>
-  </div>
-</div>
-<div class="bubble">
-  <div class="container pb-5">
-    <div class="row" >
-      <div class="col-lg-8 mx-auto text-center">
-        <h3 class="mb-3">Call Back Form</h3>
-        <p class="text-muted small mb-5 weight-500">Fill all fields so we can get some info about you. We'll never send you spam</p>
-        <div class=" mt-4">
-          <form>
-            <div class="row mb-2 pt-2">
-              <div class="col-12 col-lg-6 form-group">
-                <input type="text" class="form-control form-control-lg" placeholder="Name">
-              </div>
-              <div class="col-12 col-lg-6 form-group">
-                <input type="email" class="form-control form-control-lg" placeholder="Email">
-              </div>
+      <div class="col-md-12 col-lg-4">
+        <h2 class="mb-4 weight-600">My Skill Set</h2>
+        <p class="text-muted mb-5">With a background in Market Research, Technology, Customer Experience, and project management, I view prospective projects and opportunities through an eclectic lens </p>
+        </a> </div>
+      <div class="col-md-12 col-lg-8">
+        <div class="row">
+          <div class="col-6">
+            <div class="bg-new  p-5 text-white">
+              <h4 class="bg-heading">Project Lifecycle</h4>
+              <ul class="list-unstyled uu">
+                <li>in-depth interview moderation</li>
+                <li>focus group dicussion</li>
+                <li>questionnaire design</li>
+                <li>discussion guide design</li>
+                <li>ethnography</li>
+                <li>mobile diary study</li>
+                <li>usability testing</li>
+                <li>a/b testing</li>
+                <li>consumer journey mapping</li>
+                <li>data visualization and reporting</li>
+                <li>client presentation</li>
+              </ul>
             </div>
-            <div class="form-group">
-              <textarea name="" cols="" rows="" class="form-control form-control-lg" placeholder="Message"></textarea>
+          </div>
+          <div class="col-6">
+            <div class="bg-new-2  p-5 text-white">
+              <h4 class="bg-heading2">Software / Tools</h4>
+              <ul class="list-unstyled uu">
+                <li>eye tracking</li>
+                <li>click testing</li>
+                <li>biometric testing</li>
+                <li>tobii</li>
+                <li>imotions</li>
+                <li>nvivo</li>
+                <li>IBM SPSS</li>
+                <li>MS Office Suite</li>
+              </ul>
             </div>
-            <button type="submit" class="btn btn-secondary btn-lg w-100 d-block mt-4">Submit</button>
-          </form>
+          </div>
         </div>
       </div>
     </div>
   </div>
-</div>
-<div class="bg-secondary py-4">
-  <div class="container">
-    <div class="row">
-      <div class="col-12 text-center"> <span class="small text-white-50">© 2020 Your Company Name. All rights reserved. </span> </div>
+  <div class="bg-secondary py-4">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 text-center"> <span class="small text-white-50">© <span id="copyrightYr"></span> Delicia Annie James. All rights
+            reserved. </span> </div>
+      </div>
     </div>
   </div>
-</div>
-<!-- Optional JavaScript --> 
-<!-- jQuery first, then Popper.js, then Bootstrap JS --> 
-<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" ></script> 
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" ></script> 
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" ></script> 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.js"></script> 
-<script>
-$('.testimonials').owlCarousel({
-    loop:false,
-    margin:10,
-    nav:false,
-	dots:true,
-    responsive:{
-        0:{
-            items:1
-        },
-        600:{
-            items:1
-        },
-        1000:{
-            items:1
-        }
-    }
-})
-(function() {
-    // Add event listener
-    document.addEventListener("mousemove", parallax);
-    const elem = document.querySelector("#parallax");
-    // Magic happens here
-    function parallax(e) {
-        let _w = window.innerWidth/2;
-        let _h = window.innerHeight/2;
-        let _mouseX = e.clientX;
-        let _mouseY = e.clientY;
-        let _depth1 = `${50 - (_mouseX - _w) * 0.01}% ${50 - (_mouseY - _h) * 0.01}%`;
-        let _depth2 = `${50 - (_mouseX - _w) * 0.02}% ${50 - (_mouseY - _h) * 0.02}%`;
-        let _depth3 = `${50 - (_mouseX - _w) * 0.06}% ${50 - (_mouseY - _h) * 0.06}%`;
-        let x = `${_depth3}, ${_depth2}, ${_depth1}`;
-        console.log(x);
-        elem.style.backgroundPosition = x;
-    }
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.js"></script>
+  <script>
+    const copyrightYr = new Date().getFullYear();
 
-})();
-</script>
+    $('#copyrightYr').text(copyrightYr);
+
+    $('.testimonials').owlCarousel({
+      loop: false,
+      margin: 10,
+      nav: false,
+      dots: true,
+      responsive: {
+        0: {
+          items: 1
+        },
+        600: {
+          items: 1
+        },
+        1000: {
+          items: 1
+        }
+      }
+    })
+      (function () {
+        // Add event listener
+        document.addEventListener("mousemove", parallax);
+        const elem = document.querySelector("#parallax");
+        // Magic happens here
+        function parallax(e) {
+          let _w = window.innerWidth / 2;
+          let _h = window.innerHeight / 2;
+          let _mouseX = e.clientX;
+          let _mouseY = e.clientY;
+          let _depth1 = `${50 - (_mouseX - _w) * 0.01}% ${50 - (_mouseY - _h) * 0.01}%`;
+          let _depth2 = `${50 - (_mouseX - _w) * 0.02}% ${50 - (_mouseY - _h) * 0.02}%`;
+          let _depth3 = `${50 - (_mouseX - _w) * 0.06}% ${50 - (_mouseY - _h) * 0.06}%`;
+          let x = `${_depth3}, ${_depth2}, ${_depth1}`;
+          console.log(x);
+          elem.style.backgroundPosition = x;
+        }
+
+      })();
+  </script>
 </body>
+
 </html>
