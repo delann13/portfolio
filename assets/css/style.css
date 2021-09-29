@@ -259,7 +259,7 @@ h1, h2, h3, h4, h5, h6 {
 # Sections General
 --------------------------------------------------------------*/
 section {
-  padding: 60px 0;
+  padding: 40px 0;
   overflow: hidden;
 }
 
@@ -320,6 +320,12 @@ section {
 }
 .about .content p:last-child {
   margin-bottom: 0;
+}
+
+.about .title {
+  font-weight: 700;
+  margin-bottom: 15px;
+  font-size: 18px;
 }
 
 /*--------------------------------------------------------------
