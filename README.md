@@ -1,2 +1,0 @@
-# portfolio
-mini me
